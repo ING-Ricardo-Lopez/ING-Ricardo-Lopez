@@ -23,7 +23,19 @@
 
 <p align="center"><code>§ § §   //   MATERIAL CLASIFICADO — NO DISTRIBUIR   //   § § §</code></p>
 
-## § 01 · DOMINIOS OPERATIVOS
+### 🗂 ÍNDICE DEL EXPEDIENTE
+
+<p align="center">
+  <a href="#s01"><code>§01 DOMINIOS</code></a> ·
+  <a href="#s02"><code>§02 DECEPTICON</code></a> ·
+  <a href="#s03"><code>§03 OPERACIONES</code></a> ·
+  <a href="#s04"><code>§04 ACTIVOS</code></a> ·
+  <a href="#s05"><code>§05 SERVICIO</code></a> ·
+  <a href="#s06"><code>§06 PERSONAL</code></a> ·
+  <a href="#vault"><code>🔒 BÓVEDA</code></a>
+</p>
+
+<h2 id="s01">§ 01 · DOMINIOS OPERATIVOS</h2>
 
 <table>
   <tr>
@@ -48,7 +60,7 @@
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 01   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
-## § 02 · ACTIVO PRINCIPAL — DECEPTICON
+<h2 id="s02">§ 02 · ACTIVO PRINCIPAL — DECEPTICON</h2>
 
 <p align="center">
   <img src="assets/operators.svg" alt="Vector de operadores Decepticon" width="100%">
@@ -64,7 +76,7 @@ Framework de pentesting autónomo sobre **LangGraph** — kill-chain completa, d
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 02   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
-## § 03 · OPERACIONES DE CAMPO — black-box (autorizado)
+<h2 id="s03">§ 03 · OPERACIONES DE CAMPO — black-box (autorizado)</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AUTORIZADO-scope_acordado-5a8a3a?style=flat-square">
@@ -76,30 +88,115 @@ Framework de pentesting autónomo sobre **LangGraph** — kill-chain completa, d
   <img src="assets/tactical-map.svg" alt="Mapa táctico de operaciones" width="100%">
 </p>
 
+<details>
+<summary><b>OP-01</b> · Puropollo <img src="https://img.shields.io/badge/CRÍTICO-d62828?style=flat-square"></summary>
+Plataforma de pedidos de comida. <b>IDOR crítico</b>: el endpoint <code>/orders/{id}</code> accesible sin autenticación exponía datos de pedidos de ~22,450 usuarios (dirección, método de pago, productos). Reportado y corregido.
+</details>
+
+<details>
+<summary><b>OP-02</b> · SIGROMEX <img src="https://img.shields.io/badge/CRÍTICO-d62828?style=flat-square"></summary>
+ERP corporativo. Cadena de explotación: spec OpenAPI expuesto → bypass JWT cross-tenant → escalada a cuenta SuperAdmin + fuga de PII. 14 vulnerabilidades (3 críticas).
+</details>
+
+<details>
+<summary><b>OP-03</b> · Tarjeta Amiga <img src="https://img.shields.io/badge/ALTO-d4a017?style=flat-square"></summary>
+Sistema de crédito. 10 vulnerabilidades (3 críticas) detectadas en QA pre-producción antes del despliegue.
+</details>
+
+<details>
+<summary><b>OP-04</b> · CBTIS 051 / DGETI <img src="https://img.shields.io/badge/CRÍTICO-d62828?style=flat-square"></summary>
+Sistema educativo gubernamental (preinscripciones). Auth bypass + SQLi + volcado de PII en PHP vanilla y portal Laravel.
+</details>
+
+<details>
+<summary><b>OP-05</b> · Hello Sushi <img src="https://img.shields.io/badge/INV.-5a7a9a?style=flat-square"></summary>
+Cadena de restaurante. Investigación de carding masivo (~30 cargos fraudulentos con la misma tarjeta) vía procesador de pagos Clip.
+</details>
+
+<details>
+<summary><b>OP-06</b> · Revista Espejo <img src="https://img.shields.io/badge/INV.-5a7a9a?style=flat-square"></summary>
+Medio de periodismo. Pentest post-intrusión: OSINT del staff, bypass de WPS Hide Login, análisis de plugins WordPress vulnerables.
+</details>
+
 <p align="center"><sub>+ routers IZZI / MegaCable · monitor mode BCM4387 (M1 Pro) · 5 máquinas Hack The Box comprometidas autónomamente</sub></p>
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 03   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
-## § 04 · REGISTRO DE ACTIVOS
+<h2 id="s04">§ 04 · REGISTRO DE ACTIVOS</h2>
 
-| ID | ACTIVO | CLASE | ESTADO |
-|---|---|---|---|
-| 01 | Auriquim | ERP · química / jabones | `PROD` |
-| 02 | Hersa | inmobiliaria · multi-tenant | `PROD` |
-| 03 | Hello Sushi | cadena food · multi-sucursal | `PROD` |
-| 04 | ERP de fundición | metalúrgica · aluminio | `PROD` |
-| 05 | TherapIQ | SaaS salud · psicología | `PROD` |
-| 06 | [SignoSonoro](https://github.com/ING-Ricardo-Lopez/SignoSonoro) | audio → lenguaje de señas | `PÚBLICO ⭐3` |
-| 07 | [PATO](https://github.com/ING-Ricardo-Lopez/PATO) | corrección de ejercicios con CV | `PÚBLICO ⭐2` |
-| 08 | JuegoTrazo | fighting game · web multijugador | `DEV` |
-| 09 | NuevoViruz | suite de agentes IA (7 repos) | `ACTIVO` |
-| 10 | Sentinel | verificación de código IA · MCP | `ACTIVO` |
-| 11 | OpenCode Mobile | PWA control remoto del agente | `ACTIVO` |
-| 12 | ERP Angalf | academia de kickboxing | `PROD` |
+<sub>Hacé clic en cada expediente para desclasificar su contenido.</sub>
+
+<details>
+<summary><b>01</b> · Auriquim <sub>[ERP · química / jabones]</sub> <code>PROD</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"> <img src="https://img.shields.io/badge/Prisma-5A67D8?style=flat-square&logo=prisma&logoColor=white"> <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white"> <img src="https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white"><br>
+<sub>finanzas (facturas globales, notas de crédito, CxC/CxP) · inventario dual · precios especiales · comodato de cliente · órdenes de compra · RBAC granular · Dokploy</sub>
+</details>
+
+<details>
+<summary><b>02</b> · Hersa <sub>[inmobiliaria · multi-tenant]</sub> <code>PROD</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"> <img src="https://img.shields.io/badge/Prisma-5A67D8?style=flat-square&logo=prisma&logoColor=white"> <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/4_apps-00f0ff?style=flat-square"><br>
+<sub>ventas · cotización · amortización · reservaciones · comisiones · CFDI · CRM de asesor · ledger · 47 modelos Prisma · fuzz harness + DTO/schema checker propios</sub>
+</details>
+
+<details>
+<summary><b>03</b> · Hello Sushi <sub>[cadena food · multi-sucursal]</sub> <code>PROD</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white"> <img src="https://img.shields.io/badge/MapLibre-00f0ff?style=flat-square"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"><br>
+<sub>CEDIS · inventario · solicitudes de compra · recepción · POS · dispatch con mapa · variantes/modificadores · roles cedis_operator/manager</sub>
+</details>
+
+<details>
+<summary><b>04</b> · ERP de fundición <sub>[metalúrgica · aluminio]</sub> <code>PROD</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"> <img src="https://img.shields.io/badge/Prisma-5A67D8?style=flat-square&logo=prisma&logoColor=white"> <img src="https://img.shields.io/badge/Calendar-39ff14?style=flat-square"><br>
+<sub>foundry orders · fusion calendar con drag & drop · hornos · stock reservation polimórfico · aleaciones/recetas (AlSi9Cu3) · kiosko · sales orders</sub>
+</details>
+
+<details>
+<summary><b>05</b> · TherapIQ <sub>[SaaS salud · psicología]</sub> <code>PROD</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square"> <img src="https://img.shields.io/badge/Zustand-00f0ff?style=flat-square"> <img src="https://img.shields.io/badge/Multi--tenant-39ff14?style=flat-square"> <img src="https://img.shields.io/badge/220%2B_tests-39ff14?style=flat-square"><br>
+<sub>admin · integración IA con circuit breaker · auth · notificaciones · import CSV · planes de tratamiento · multi-tenant por clínica · 8 cambios SDD, 135 tareas</sub>
+</details>
+
+<details>
+<summary><b>06</b> · <a href="https://github.com/ING-Ricardo-Lopez/SignoSonoro">SignoSonoro</a> <sub>[audio → señas]</sub> <code>PÚBLICO ⭐3</code></summary>
+Detección de audio para conversión a lenguaje de señas.
+</details>
+
+<details>
+<summary><b>07</b> · <a href="https://github.com/ING-Ricardo-Lopez/PATO">PATO</a> <sub>[visión artificial]</sub> <code>PÚBLICO ⭐2</code></summary>
+Plataforma de Análisis y Training — corrección de ejercicios en tiempo real mediante visión artificial.
+</details>
+
+<details>
+<summary><b>08</b> · JuegoTrazo <sub>[fighting game · web]</sub> <code>DEV</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<img src="https://img.shields.io/badge/Phaser-000?style=flat-square"> <img src="https://img.shields.io/badge/Colyseus-5a67d8?style=flat-square"> <img src="https://img.shields.io/badge/geckos.io-00f0ff?style=flat-square"><br>
+<sub>Fighting game 2D web multijugador estilo MK/Street Fighter, personajes basados en compañeros de oficina · netcode delay-based · character creator</sub>
+</details>
+
+<details>
+<summary><b>09</b> · NuevoViruz <sub>[suite de agentes IA]</sub> <code>ACTIVO</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<sub>7 repos: runtime de coding agent · memoria persistente que aprende tu estilo (Go) · AI code review · TUI dashboard (Go) · CLI (Go) · skills · SDD con sub-agentes</sub>
+</details>
+
+<details>
+<summary><b>10</b> · Sentinel <sub>[verifica código IA]</sub> <code>ACTIVO</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"><br>
+<sub>Capa de inteligencia de contexto que verifica que el código generado por IA realmente funcione · 3 módulos (Verify · Context · Critic) · MCP tools</sub>
+</details>
+
+<details>
+<summary><b>11</b> · OpenCode Mobile <sub>[PWA control agente]</sub> <code>ACTIVO</code></summary>
+PWA para controlar el agente de código desde el celular (chat + terminal vía <code>opencode serve</code>).
+</details>
+
+<details>
+<summary><b>12</b> · ERP Angalf <sub>[academia kickboxing]</sub> <code>PROD</code></summary>
+<img src="https://img.shields.io/badge/Vue-42b883?style=flat-square&logo=vuedotjs&logoColor=white"> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"><br>
+<sub>Gestión de academia: alumnos, asistencias, mensualidades.</sub>
+</details>
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 04   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
-## § 05 · HOJA DE SERVICIO
+<h2 id="s05">§ 05 · HOJA DE SERVICIO</h2>
 
 <p align="center">
   <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="contribuciones 3d">
@@ -116,13 +213,28 @@ Framework de pentesting autónomo sobre **LangGraph** — kill-chain completa, d
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 05   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
-## § 06 · EXPEDIENTE PERSONAL
+<h2 id="s06">§ 06 · EXPEDIENTE PERSONAL</h2>
 
 <table>
   <tr><td width="28%"><sub>RANGO</sub></td><td>Cinta negra 1er Dan — Kickboxing & Muay Thai (2do Dan en proceso)</td></tr>
   <tr><td><sub>AUDIO</sub></td><td>Linkin Park · Metallica · Ice Cube — rock / nu-metal / rap / electrónica</td></tr>
   <tr><td><sub>LIBRE</sub></td><td>League of Legends · Minecraft · series · tecnología</td></tr>
 </table>
+
+<p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 06   //   ▔ ▔ ▔ ▔ ▔</code></p>
+
+<h2 id="vault">🔒 BÓVEDA — ACCESO RESTRINGIDO</h2>
+
+<details>
+<summary><b>DESCLASIFICAR</b> contenido restringido</summary>
+
+- 📫 <b>Contacto directo:</b> rl0051844@gmail.com · WhatsApp +52 669 221 8002
+- 💼 <b>LinkedIn:</b> Ricardo Lopez Espinoza
+- 🧠 <b>Filosofía:</b> fundamentos antes que frameworks · la IA es una herramienta, el humano dirige
+- ⚡ <b>Disponible para:</b> producto full-stack · seguridad ofensiva autorizada · orquestación de agentes IA
+
+<p align="center"><sub>— DESCLASIFICADO bajo autorización del operador —</sub></p>
+</details>
 
 <p align="center"><sub>— FIN DEL EXPEDIENTE —</sub></p>
 

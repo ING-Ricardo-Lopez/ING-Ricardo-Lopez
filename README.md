@@ -118,6 +118,16 @@ Cadena de restaurante. Investigación de carding masivo (~30 cargos fraudulentos
 Medio de periodismo. Pentest post-intrusión: OSINT del staff, bypass de WPS Hide Login, análisis de plugins WordPress vulnerables.
 </details>
 
+<details>
+<summary><b>OP-07</b> · Tecnocom / ASISTEA <img src="https://img.shields.io/badge/CRÍTICO-d62828?style=flat-square"></summary>
+Red Team autorizado contra <code>checador.tecnocom.dev</code> (sistema ASISTEA). <b>4/4 objetivos completados</b>, crown jewels alcanzadas. Reportes ejecutivo + técnico generados en español.
+</details>
+
+<details>
+<summary><b>OP-08</b> · briq <img src="https://img.shields.io/badge/ALTO-d4a017?style=flat-square"></summary>
+Engagement de campo del framework <b>Decepticon</b> — pentesting ofensivo autorizado con el orquestador multi-agente. Hallazgos documentados internamente; caso real de uso del framework en producción.
+</details>
+
 <p align="center"><sub>+ routers IZZI / MegaCable · monitor mode BCM4387 (M1 Pro) · 5 máquinas Hack The Box comprometidas autónomamente</sub></p>
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 03   //   ▔ ▔ ▔ ▔ ▔</code></p>

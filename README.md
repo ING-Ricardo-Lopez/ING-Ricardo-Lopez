@@ -28,18 +28,71 @@
 <img src="assets/divider.svg" width="100%">
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,05080d&height=100&section=header&text=PRODUCTO%20FULL-STACK&fontSize=26&fontColor=00f0ff&fontAlignY=38&stroke=00f0ff&strokeWidth=1&desc=ERPs%20y%20SaaS%20en%20produccion&descColor=8b949e&descAlignY=62&animation=fadeIn" width="100%" alt="producto full-stack">
+  <img src="assets/product.svg" alt="Producto full-stack" width="100%">
 </p>
 
-Sistemas de producción completos — no demos. **NestJS + Prisma + PostgreSQL** en backend, **Next.js / React 19** en frontend, desplegados en producción.
+Sistemas de producción — no demos. **NestJS + Prisma + PostgreSQL** · **Next.js / React 19**, desplegados en producción.
 
-| Proyecto | Dominio | Stack | Lo que lleva dentro |
-|---|---|---|---|
-| **Auriquim** (ERP) | Industria química / jabones | Monorepo pnpm (admin + PWA + POS + driver), `@auriquim/shared`, Dokploy | Finanzas (facturas globales, notas de crédito, CxC/CxP), inventario dual, precios especiales, comodato de cliente, órdenes de compra, RBAC granular por rol |
-| **Hersa** (Inmobiliaria) | Bienes raíces | 4 apps (web/admin/CRM/portal), NestJS 11, 47 modelos Prisma | Ventas, cotización, amortización, reservaciones, comisiones, CFDI, CRM de asesor, ledger. Multi-tenant. Fuzz harness + DTO/schema checker propios |
-| **Hello Sushi** (Cadena restaurante) | Food multi-sucursal | hs-platform-api + admin, Next.js, MapLibre | CEDIS, inventario, solicitudes de compra, recepción de mercancía, POS, dispatch con mapa, variantes/modificadores. Roles cedis_operator/manager |
-| **ERP de fundición** | Industria metalúrgica (aluminio) | NestJS + Prisma | Foundry orders, fusion calendar con drag & drop, hornos (furnaces), stock reservation polimórfico, aleaciones/recetas (AlSi9Cu3), kiosko, sales orders |
-| **TherapIQ** (SaaS salud) | Psicología / clínicas | Monorepo, TanStack Query + Zustand | 8 cambios SDD, 135 tareas, 220+ tests. Admin, integración IA con circuit breaker, auth, notificaciones, import CSV, planes de tratamiento, multi-tenant por clínica |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Auriquim</b> · <sub>ERP · química / jabones</sub><br><br>
+      <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
+      <img src="https://img.shields.io/badge/Prisma-5A67D8?style=flat-square&logo=prisma&logoColor=white">
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white">
+      <img src="https://img.shields.io/badge/pnpm-F69220?style=flat-square&logo=pnpm&logoColor=white">
+      <br><br>
+      <details><summary>módulos</summary>
+      finanzas (facturas globales, notas de crédito, CxC/CxP) · inventario dual · precios especiales · comodato de cliente · órdenes de compra · RBAC granular · Dokploy
+      </details>
+    </td>
+    <td width="50%" valign="top">
+      <b>Hersa</b> · <sub>inmobiliaria · multi-tenant</sub><br><br>
+      <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
+      <img src="https://img.shields.io/badge/Prisma-5A67D8?style=flat-square&logo=prisma&logoColor=white">
+      <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black">
+      <img src="https://img.shields.io/badge/4_apps-00f0ff?style=flat-square">
+      <br><br>
+      <details><summary>módulos</summary>
+      ventas · cotización · amortización · reservaciones · comisiones · CFDI · CRM de asesor · ledger · 47 modelos Prisma · fuzz harness + DTO/schema checker propios
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b>Hello Sushi</b> · <sub>food multi-sucursal</sub><br><br>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white">
+      <img src="https://img.shields.io/badge/MapLibre-00f0ff?style=flat-square">
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+      <br><br>
+      <details><summary>módulos</summary>
+      CEDIS · inventario · solicitudes de compra · recepción · POS · dispatch con mapa · variantes/modificadores · roles cedis_operator/manager
+      </details>
+    </td>
+    <td valign="top">
+      <b>ERP de fundición</b> · <sub>metalúrgica (aluminio)</sub><br><br>
+      <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
+      <img src="https://img.shields.io/badge/Prisma-5A67D8?style=flat-square&logo=prisma&logoColor=white">
+      <img src="https://img.shields.io/badge/Calendar-39ff14?style=flat-square">
+      <br><br>
+      <details><summary>módulos</summary>
+      foundry orders · fusion calendar con drag & drop · hornos · stock reservation polimórfico · aleaciones/recetas (AlSi9Cu3) · kiosko · sales orders
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" colspan="2">
+      <b>TherapIQ</b> · <sub>SaaS salud · psicología / clínicas</sub><br>
+      <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square">
+      <img src="https://img.shields.io/badge/Zustand-00f0ff?style=flat-square">
+      <img src="https://img.shields.io/badge/Multi--tenant-39ff14?style=flat-square">
+      <img src="https://img.shields.io/badge/220%2B_tests-39ff14?style=flat-square">
+      <details><summary>módulos</summary>
+      admin · integración IA con circuit breaker · auth · notificaciones · import CSV · planes de tratamiento · multi-tenant por clínica · 8 cambios SDD, 135 tareas
+      </details>
+    </td>
+  </tr>
+</table>
 
 <img src="assets/divider.svg" width="100%">
 

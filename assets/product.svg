@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" fill="none" font-family="'JetBrains Mono','Fira Code',ui-monospace,monospace">
+  <defs>
+    <linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#05080d"/>
+    </linearGradient>
+    <linearGradient id="pacc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="1" stop-color="#39ff14"/>
+    </linearGradient>
+    <pattern id="pgrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#1f2937" stroke-width="0.5" opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="300" fill="url(#pbg)"/>
+  <rect width="900" height="300" fill="url(#pgrid)"/>
+
+  <!-- title -->
+  <text x="40" y="46" font-size="20" font-weight="700" fill="url(#pacc)">PRODUCTO FULL-STACK</text>
+  <rect x="312" y="29" width="10" height="18" fill="#39ff14">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.5;0.98;1" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+  <text x="40" y="66" font-size="11" fill="#8b949e">5 sistemas en producción  ·  NestJS + Prisma + Next.js</text>
+
+  <!-- isometric 3D tiles, each floating (stagger) -->
+  <!-- Auriquim -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="3.4s" repeatCount="indefinite" begin="0s"/>
+    <polygon points="110,200 170,226 170,242 110,216" fill="#05080d" stroke="#00f0ff" stroke-width="1.2"/>
+    <polygon points="170,226 230,200 230,216 170,242" fill="#0a0e14" stroke="#00f0ff" stroke-width="1.2"/>
+    <polygon points="170,174 110,200 170,226 230,200" fill="#0d1117" stroke="#00f0ff" stroke-width="1.4"/>
+    <text x="170" y="204" font-size="10" fill="#00f0ff" text-anchor="middle" font-weight="700">Auriquim</text>
+    <text x="170" y="152" font-size="8" fill="#8b949e" text-anchor="middle">ERP química</text>
+  </g>
+  <!-- Hersa -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="3.4s" repeatCount="indefinite" begin="0.5s"/>
+    <polygon points="280,165 340,191 340,207 280,181" fill="#05080d" stroke="#39ff14" stroke-width="1.2"/>
+    <polygon points="340,191 400,165 400,181 340,207" fill="#0a0e14" stroke="#39ff14" stroke-width="1.2"/>
+    <polygon points="340,139 280,165 340,191 400,165" fill="#0d1117" stroke="#39ff14" stroke-width="1.4"/>
+    <text x="340" y="169" font-size="10" fill="#39ff14" text-anchor="middle" font-weight="700">Hersa</text>
+    <text x="340" y="117" font-size="8" fill="#8b949e" text-anchor="middle">inmobiliaria</text>
+  </g>
+  <!-- Hello Sushi -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="3.4s" repeatCount="indefinite" begin="1.0s"/>
+    <polygon points="450,205 510,231 510,247 450,221" fill="#05080d" stroke="#00f0ff" stroke-width="1.2"/>
+    <polygon points="510,231 570,205 570,221 510,247" fill="#0a0e14" stroke="#00f0ff" stroke-width="1.2"/>
+    <polygon points="510,179 450,205 510,231 570,205" fill="#0d1117" stroke="#00f0ff" stroke-width="1.4"/>
+    <text x="510" y="209" font-size="10" fill="#00f0ff" text-anchor="middle" font-weight="700">Hello Sushi</text>
+    <text x="510" y="157" font-size="8" fill="#8b949e" text-anchor="middle">food multi-suc</text>
+  </g>
+  <!-- Fundición -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="3.4s" repeatCount="indefinite" begin="1.5s"/>
+    <polygon points="620,170 680,196 680,212 620,186" fill="#05080d" stroke="#39ff14" stroke-width="1.2"/>
+    <polygon points="680,196 740,170 740,186 680,212" fill="#0a0e14" stroke="#39ff14" stroke-width="1.2"/>
+    <polygon points="680,144 620,170 680,196 740,170" fill="#0d1117" stroke="#39ff14" stroke-width="1.4"/>
+    <text x="680" y="174" font-size="10" fill="#39ff14" text-anchor="middle" font-weight="700">Fundición</text>
+    <text x="680" y="122" font-size="8" fill="#8b949e" text-anchor="middle">metalúrgica</text>
+  </g>
+  <!-- TherapIQ -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -6; 0 0" dur="3.4s" repeatCount="indefinite" begin="2.0s"/>
+    <polygon points="770,200 830,226 830,242 770,216" fill="#05080d" stroke="#00f0ff" stroke-width="1.2"/>
+    <polygon points="830,226 890,200 890,216 830,242" fill="#0a0e14" stroke="#00f0ff" stroke-width="1.2"/>
+    <polygon points="830,174 770,200 830,226 890,200" fill="#0d1117" stroke="#00f0ff" stroke-width="1.4"/>
+    <text x="830" y="204" font-size="10" fill="#00f0ff" text-anchor="middle" font-weight="700">TherapIQ</text>
+    <text x="830" y="152" font-size="8" fill="#8b949e" text-anchor="middle">SaaS salud</text>
+  </g>
+
+  <!-- corner ticks -->
+  <path d="M0 0 h12 M0 0 v12" stroke="#00f0ff" stroke-width="1.5" transform="translate(12,12)"/>
+  <path d="M0 0 h-12 M0 0 v12" stroke="#39ff14" stroke-width="1.5" transform="translate(888,12)"/>
+</svg>

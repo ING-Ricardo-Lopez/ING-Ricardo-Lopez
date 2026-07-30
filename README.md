@@ -1,40 +1,33 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Ricardo Lopez banner" width="100%">
+  <img src="assets/dossier.svg" alt="Case file — Ricardo Lopez" width="100%">
 </p>
+
+<p align="center"><sub>TRANSMISSION CHANNELS</sub></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=800&color=00F0FF&center=true&vCenter=true&width=520&lines=Ingeniero+de+Software;Pentester+Ofensivo;Builder+de+Decepticon;Orquestador+de+Agentes+IA" alt="Typing SVG">
+  <a href="mailto:rl0051844@gmail.com"><img src="https://img.shields.io/badge/EMAIL-rl0051844-2a2a2a?style=flat-square&logo=gmail&logoColor=d4a017&labelColor=111"></a>
+  <a href="https://www.linkedin.com/in/ricardo-lopez-espinoza-829966257/"><img src="https://img.shields.io/badge/LINKEDIN-lopez__espinoza-2a2a2a?style=flat-square&logo=linkedin&logoColor=d4a017&labelColor=111"></a>
+  <a href="http://wa.me/+526692218002"><img src="https://img.shields.io/badge/WHATSAPP-%2B52_669_221_8002-2a2a2a?style=flat-square&logo=whatsapp&logoColor=d4a017&labelColor=111"></a>
+  <a href="https://github.com/ING-Ricardo-Lopez"><img src="https://img.shields.io/badge/GITHUB-ING--Ricardo--Lopez-2a2a2a?style=flat-square&logo=github&logoColor=d4a017&labelColor=111"></a>
 </p>
 
-<p align="center">
-  <a href="mailto:rl0051844@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/ricardo-lopez-espinoza-829966257/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="http://wa.me/+526692218002"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-  <a href="https://github.com/ING-Ricardo-Lopez"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
+<p align="center"><code>§ § §   //   CLASSIFIED MATERIAL — DO NOT DISTRIBUTE   //   § § §</code></p>
 
-<p align="center"><sub>Mazatlán, Sinaloa 🇲🇽 · 2 años ingeniero + 6 freelance</sub></p>
-
-<img src="assets/divider.svg" width="100%">
-
-### ⌘ Operador — tres verticales
+## § 01 · OPERATIONAL DOMAINS
 
 <table>
   <tr>
     <td align="center" width="33%">
-      <h4>🏭 Producto</h4>
-      <b>5 ERPs</b> en producción<br>
-      <sub>NestJS · Prisma · Next.js</sub>
+      <sub>DOMAIN</sub><br><b>PRODUCT</b><br>
+      <sub>5 ERPs in production</sub><br><sub>NestJS · Prisma · Next.js</sub>
     </td>
     <td align="center" width="33%">
-      <h4>🎯 Seguridad</h4>
-      <b>Decepticon</b> · 11 operadores<br>
-      <sub>6 engagements · 5 HTB</sub>
+      <sub>DOMAIN</sub><br><b>OFFENSIVE SECURITY</b><br>
+      <sub>Decepticon · 11 operators</sub><br><sub>6 engagements · 5 HTB</sub>
     </td>
     <td align="center" width="33%">
-      <h4>🤖 IA</h4>
-      <b>7 repos</b> NuevoViruz<br>
-      <sub>Sentinel · OpenCode Mobile</sub>
+      <sub>DOMAIN</sub><br><b>AI AGENTS</b><br>
+      <sub>7 repos · NuevoViruz</sub><br><sub>Sentinel · OpenCode Mobile</sub>
     </td>
   </tr>
 </table>
@@ -43,89 +36,89 @@
   <img src="https://skillicons.dev/icons?i=ts,js,go,python,php,cs,nextjs,react,vue,nestjs,tailwind,docker,postgres,graphql&theme=dark&perline=14" alt="tech stack">
 </p>
 
-<img src="assets/divider.svg" width="100%">
+<p align="center"><code>▔ ▔ ▔ ▔ ▔   //   END § 01   //   ▔ ▔ ▔ ▔ ▔</code></p>
+
+## § 02 · PRIMARY ASSET — DECEPTICON
 
 <p align="center">
-  <img src="assets/decepticon.svg" alt="Decepticon" width="100%">
+  <img src="assets/operators.svg" alt="Decepticon operator array" width="100%">
 </p>
 
-Framework de **pentesting autónomo sobre LangGraph** — kill-chain completa, de reconocimiento a reporte, con operadores especializados por dominio.
-
-<p align="center">
-  <img src="assets/operators.svg" alt="multi-agent swarm" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/🧠_middleware-senior_reasoning-39ff14?style=flat-square">
-  <img src="https://img.shields.io/badge/📄_reportes-PDF_·_HTML_·_DOCX-00f0ff?style=flat-square">
-  <img src="https://img.shields.io/badge/🛡️_ROE_+_SDK-SARIF-00b8d4?style=flat-square">
-</p>
-
-**Engagements autorizados (black-box):**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Puropollo-CRITICAL_IDOR_22K_users-ff2d55?style=flat-square">
-  <img src="https://img.shields.io/badge/SIGROMEX-JWT_→_SuperAdmin-ff2d55?style=flat-square">
-  <img src="https://img.shields.io/badge/Tarjeta_Amiga-10_vulns_(3_crit)-ff8c00?style=flat-square">
-  <img src="https://img.shields.io/badge/CBTIS_DGETI-auth_bypass_+_SQLi-ff2d55?style=flat-square">
-  <img src="https://img.shields.io/badge/Hello_Sushi-carding_Clip-00b8d4?style=flat-square">
-  <img src="https://img.shields.io/badge/Revista_Espejo-post--intrusión-00b8d4?style=flat-square">
-</p>
-
-<p align="center"><sub>+ routers IZZI/MegaCable · monitor mode BCM4387 (M1 Pro) · 5 máquinas Hack The Box</sub></p>
-
-<img src="assets/divider.svg" width="100%">
-
-## Trabajo destacado
-
-<p align="center">
-  <img src="assets/product.svg" alt="producto full-stack" width="100%">
-</p>
+Autonomous pentest framework on **LangGraph** — full kill-chain, from reconnaissance to report.
 
 <table>
-  <tr>
-    <td align="center" width="25%"><b>Auriquim</b><br><sub>ERP · química</sub></td>
-    <td align="center" width="25%"><b>Hersa</b><br><sub>inmobiliaria · multi-tenant</sub></td>
-    <td align="center" width="25%"><b>Hello Sushi</b><br><sub>food multi-sucursal</sub></td>
-    <td align="center" width="25%"><b>Fundición</b><br><sub>metalúrgica · aluminio</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><b>TherapIQ</b><br><sub>SaaS salud</sub></td>
-    <td align="center"><a href="https://github.com/ING-Ricardo-Lopez/SignoSonoro"><b>SignoSonoro</b> ⭐3</a><br><sub>audio → señas</sub></td>
-    <td align="center"><a href="https://github.com/ING-Ricardo-Lopez/PATO"><b>PATO</b> ⭐2</a><br><sub>visión artificial</sub></td>
-    <td align="center"><b>JuegoTrazo</b><br><sub>fighting game web</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><b>NuevoViruz</b><br><sub>ecosistema agentes IA</sub></td>
-    <td align="center"><b>Sentinel</b><br><sub>verifica código IA</sub></td>
-    <td align="center"><b>OpenCode Mobile</b><br><sub>PWA control agente</sub></td>
-    <td align="center"><b>ERP Angalf</b><br><sub>academia kickboxing</sub></td>
-  </tr>
+  <tr><td width="22%"><sub>REASONING</sub></td><td>Senior-pentester middleware · tech-stack → TTPs · exploit-chain inference · lateral thinking</td></tr>
+  <tr><td><sub>REPORTING</sub></td><td>Markdown → PDF / HTML / DOCX · executive + technical · ES / EN</td></tr>
+  <tr><td><sub>CONTROL</sub></td><td>Rules of Engagement · human gates per phase · SDK · SARIF findings · internal benchmark</td></tr>
 </table>
 
-<img src="assets/divider.svg" width="100%">
+<p align="center"><code>▔ ▔ ▔ ▔ ▔   //   END § 02   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
-## Actividad
+## § 03 · FIELD OPERATIONS — black-box (authorized)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AUTHORIZED-scope_set-5a8a3a?style=flat-square">
+  <img src="https://img.shields.io/badge/BLACK--BOX-active-d4a017?style=flat-square">
+  <img src="https://img.shields.io/badge/REPORTS-CVSS_+_PoC-2a2a2a?style=flat-square&labelColor=111">
+</p>
+
+| OP | TARGET | OUTCOME |
+|---|---|---|
+| 01 | Puropollo | <img src="https://img.shields.io/badge/CRITICAL-d62828?style=flat-square"> IDOR — 22,450 users exposed |
+| 02 | SIGROMEX | <img src="https://img.shields.io/badge/CRITICAL-d62828?style=flat-square"> JWT cross-tenant → SuperAdmin + PII |
+| 03 | Tarjeta Amiga | <img src="https://img.shields.io/badge/HIGH-d4a017?style=flat-square"> 10 vulns (3 critical) pre-prod |
+| 04 | CBTIS / DGETI | <img src="https://img.shields.io/badge/CRITICAL-d62828?style=flat-square"> auth bypass + SQLi + PII dump |
+| 05 | Hello Sushi | <img src="https://img.shields.io/badge/INVEST-5a7a9a?style=flat-square"> mass carding via Clip |
+| 06 | Revista Espejo | <img src="https://img.shields.io/badge/INVEST-5a7a9a?style=flat-square"> post-intrusion OSINT |
+
+<p align="center"><sub>+ IZZI / MegaCable routers · monitor mode BCM4387 (M1 Pro) · 5 Hack The Box compromised autonomously</sub></p>
+
+<p align="center"><code>▔ ▔ ▔ ▔ ▔   //   END § 03   //   ▔ ▔ ▔ ▔ ▔</code></p>
+
+## § 04 · ASSETS REGISTRY
+
+| ID | ASSET | CLASS | STATUS |
+|---|---|---|---|
+| 01 | Auriquim | ERP · chemical / soaps | `PROD` |
+| 02 | Hersa | real estate · multi-tenant | `PROD` |
+| 03 | Hello Sushi | food chain · multi-branch | `PROD` |
+| 04 | Foundry ERP | metallurgy · aluminum | `PROD` |
+| 05 | TherapIQ | health SaaS · psychology | `PROD` |
+| 06 | [SignoSonoro](https://github.com/ING-Ricardo-Lopez/SignoSonoro) | audio → sign language | `OPEN ⭐3` |
+| 07 | [PATO](https://github.com/ING-Ricardo-Lopez/PATO) | CV exercise correction | `OPEN ⭐2` |
+| 08 | JuegoTrazo | fighting game · web multiplayer | `DEV` |
+| 09 | NuevoViruz | AI agent suite (7 repos) | `ACTIVE` |
+| 10 | Sentinel | AI code verification · MCP | `ACTIVE` |
+| 11 | OpenCode Mobile | agent PWA remote control | `ACTIVE` |
+| 12 | ERP Angalf | kickboxing academy | `PROD` |
+
+<p align="center"><code>▔ ▔ ▔ ▔ ▔   //   END § 04   //   ▔ ▔ ▔ ▔ ▔</code></p>
+
+## § 05 · SERVICE RECORD
 
 <p align="center">
   <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3d contributions">
 </p>
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ING-Ricardo-Lopez&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=39ff14&text_color=c9d1d9" alt="stats">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ING-Ricardo-Lopez&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9" alt="langs">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ING-Ricardo-Lopez&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=d4a017&icon_color=d62828&text_color=e8e6e1" alt="stats">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ING-Ricardo-Lopez&layout=compact&hide_border=true&bg_color=0a0a0a&title_color=d4a017&text_color=e8e6e1" alt="langs">
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ING-Ricardo-Lopez/ING-Ricardo-Lopez/output/github-snake-dark.svg" width="100%" alt="snake">
 </p>
 
-<img src="assets/divider.svg" width="100%">
+<p align="center"><code>▔ ▔ ▔ ▔ ▔   //   END § 05   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
-<p align="center">
-  🥋 Cinta negra 1er Dan · Kickboxing & Muay Thai &nbsp;·&nbsp; 🎸 Linkin Park / Metallica / Ice Cube
-</p>
+## § 06 · PERSONAL FILE
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=4500&color=39FF14&center=true&width=560&lines=%22La+IA+es+una+herramienta.+Nosotros+dirigimos%2C+ella+ejecuta.%22" alt="quote">
-</p>
+<table>
+  <tr><td width="28%"><sub>RANK</sub></td><td>Black belt 1st Dan — Kickboxing & Muay Thai (2nd Dan in progress)</td></tr>
+  <tr><td><sub>AUDIO</sub></td><td>Linkin Park · Metallica · Ice Cube — rock / nu-metal / rap / electronic</td></tr>
+  <tr><td><sub>OFF&#8209;DUTY</sub></td><td>League of Legends · Minecraft · series · tech</td></tr>
+</table>
+
+<p align="center"><sub>— END OF FILE —</sub></p>
+
+<p align="center"><code>“La IA es una herramienta. Nosotros dirigimos, ella ejecuta.”</code></p>

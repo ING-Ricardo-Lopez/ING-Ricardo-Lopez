@@ -1,42 +1,45 @@
-<h1 align="center">Ricardo Alonso Lopez Espinoza</h1>
-<p align="center"><strong>Ingeniero de Software · Pentester ofensivo · Constructor de producto</strong></p>
-<p align="center">Mazatlán, Sinaloa, México</p>
-
 <p align="center">
-  <a href="mailto:rl0051844@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-rl0051844@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/ricardo-lopez-espinoza-829966257/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Ricardo%20Lopez-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="http://wa.me/+526692218002"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-%2B52%20669%20221%208002-25D366?style=flat-square&logo=whatsapp&logoColor=white"></a>
-  <a href="https://github.com/ING-Ricardo-Lopez"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-ING--Ricardo--Lopez-181717?style=flat-square&logo=github&logoColor=white"></a>
+  <img src="assets/banner.svg" alt="Ricardo Lopez banner" width="100%">
 </p>
 
----
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=800&color=00F0FF&center=true&vCenter=true&width=520&lines=Ingeniero+de+Software;Pentester+Ofensivo;Builder+de+Decepticon;Orquestador+de+Agentes+IA" alt="Typing SVG">
+</p>
 
-> Construyo software con oficio: me muevo entre **producto full-stack empresarial**, **ciberseguridad ofensiva** y **orquestación de agentes de IA**. Los fundamentos antes que los frameworks. La IA es un acelerador — yo dirijo, ella ejecuta.
+<p align="center">
+  <a href="mailto:rl0051844@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/ricardo-lopez-espinoza-829966257/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="http://wa.me/+526692218002"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+  <a href="https://github.com/ING-Ricardo-Lopez"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
 
-Ingeniero de Software formado en la **Universidad Autónoma de Occidente (UAdeO)**.
-
-## Cómo trabajo, de un vistazo
-
-| Vertiente | Qué hago |
-|---|---|
-| 🏭 **Producto full-stack** | ERPs y SaaS completos de producción (NestJS + Prisma + Next.js) para empresas reales |
-| 🎯 **Seguridad ofensiva** | Framework de pentesting autónomo + auditorías black-box autorizadas |
-| 🤖 **IA & agentes** | Orquestación multi-agente y tooling propio (memoria persistente, verificación, móvil) |
-| 🥋 **Oficio** | Fundamentos, arquitectura limpia, SDD (Spec-Driven Development). La disciplina marcial aplicada al código |
+<p align="center"><sub>Mazatlán, Sinaloa, México 🇲🇽</sub></p>
 
 ---
+
+> **2 años como Ingeniero de Software full-stack en producción + 6 de freelance.** Me muevo entre **producto empresarial**, **ciberseguridad ofensiva** y **orquestación de agentes de IA**. Fundamentos antes que frameworks. La IA es un acelerador — yo dirijo, ella ejecuta.
+
+### Arsenal
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,go,python,php,cs,nextjs,react,vue,nestjs,tailwind,docker,postgres,graphql&theme=dark&perline=14" alt="tech stack">
+</p>
+
+<img src="assets/divider.svg" width="100%">
 
 ## 🏭 Producto full-stack empresarial
 
-Sistemas de producción completos — no demos, no tutoriales. Backends en **NestJS + Prisma + PostgreSQL**, frontends en **Next.js / React 19**, desplegados en producción.
+Sistemas de producción completos — no demos. **NestJS + Prisma + PostgreSQL** en backend, **Next.js / React 19** en frontend, desplegados en producción.
 
 | Proyecto | Dominio | Stack | Lo que lleva dentro |
 |---|---|---|---|
 | **Auriquim** (ERP) | Industria química / jabones | Monorepo pnpm (admin + PWA + POS + driver), `@auriquim/shared`, Dokploy | Finanzas (facturas globales, notas de crédito, CxC/CxP), inventario dual, precios especiales, comodato de cliente, órdenes de compra, RBAC granular por rol |
-| **Hersa** (Inmobiliaria) | Bienes raíces | 4 apps (web/admin/CRM/portal), NestJS 11, 47 modelos Prisma | Ventas, cotización, amortización, reservaciones, comisiones, CFDI, CRM de asesor, ledger. Multi-tenant. Construí un fuzz harness + DTO/schema checker propios |
+| **Hersa** (Inmobiliaria) | Bienes raíces | 4 apps (web/admin/CRM/portal), NestJS 11, 47 modelos Prisma | Ventas, cotización, amortización, reservaciones, comisiones, CFDI, CRM de asesor, ledger. Multi-tenant. Fuzz harness + DTO/schema checker propios |
 | **Hello Sushi** (Cadena restaurante) | Food multi-sucursal | hs-platform-api + admin, Next.js, MapLibre | CEDIS, inventario, solicitudes de compra, recepción de mercancía, POS, dispatch con mapa, variantes/modificadores. Roles cedis_operator/manager |
 | **ERP de fundición** | Industria metalúrgica (aluminio) | NestJS + Prisma | Foundry orders, fusion calendar con drag & drop, hornos (furnaces), stock reservation polimórfico, aleaciones/recetas (AlSi9Cu3), kiosko, sales orders |
 | **TherapIQ** (SaaS salud) | Psicología / clínicas | Monorepo, TanStack Query + Zustand | 8 cambios SDD, 135 tareas, 220+ tests. Admin, integración IA con circuit breaker, auth, notificaciones, import CSV, planes de tratamiento, multi-tenant por clínica |
+
+<img src="assets/divider.svg" width="100%">
 
 ## 🎯 Decepticon — framework de pentesting autónomo
 
@@ -62,9 +65,9 @@ Mi proyecto más grande. Un **framework de pentesting basado en LLMs** que orque
 - **Middleware de inteligencia** que hace razonar al agente de explotación como un pentester senior: detección de tech-stack → técnicas de ataque, inferencia de cadenas de exploit a partir de hallazgos acumulados, pensamiento lateral ante fallos.
 - **Playbooks** por vertical (API security, auth attack…) para inyectar TTPs de forma uniforme.
 - **Generación de reportes** profesional Markdown → **PDF / HTML / DOCX** (resumen ejecutivo + técnico), i18n ES/EN.
-- **SDK propio**, **Rules of Engagement** con gates humanos en cada fase (la IA propone, el operador autoriza), **SARIF** de hallazgos y **benchmark** interno.
+- **SDK propio**, **Rules of Engagement** con gates humanos en cada fase, **SARIF** de hallazgos y **benchmark** interno.
 
-### Engagements reales — objetivos autorizados
+### 🔓 Engagements reales — objetivos autorizados
 
 Decepticon probado en campo. Auditorías black-box con el framework + arsenal propio, reportes con severidad CVSS, pruebas de concepto y recomendaciones.
 
@@ -79,6 +82,8 @@ Decepticon probado en campo. Auditorías black-box con el framework + arsenal pr
 
 Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro), y **5 máquinas de Hack The Box** comprometidas de forma autónoma como benchmark del framework.
 
+<img src="assets/divider.svg" width="100%">
+
 ## 🤖 IA & agentes — tooling propio
 
 | Proyecto | Qué hace |
@@ -88,11 +93,13 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 | **Sentinel** | Capa de inteligencia de contexto que **verifica que el código generado por IA realmente funcione**. 3 módulos (Verify · Context · Critic) integrados como MCP tools · TypeScript |
 | **Orquestación diaria** | Flujos multi-agente (planificación → spec → implementación → revisión adversarial) sobre opencode + Gentle AI, con memoria persistente |
 
+<img src="assets/divider.svg" width="100%">
+
 ## 🎮 Juegos y proyectos abiertos
 
 | Proyecto | Qué es | Link |
 |---|---|---|
-| **JuegoTrazo** (office-brawler) | Fighting game 2D web multijugador estilo MK/Street Fighter, con personajes basados en compañeros de oficina · Phaser + Colyseus + geckis.io | privado |
+| **JuegoTrazo** (office-brawler) | Fighting game 2D web multijugador estilo MK/Street Fighter, personajes basados en compañeros de oficina · Phaser + Colyseus + geckos.io | privado |
 | **SignoSonoro** | Detección de audio → lenguaje de señas ⭐ 3 | [repo](https://github.com/ING-Ricardo-Lopez/SignoSonoro) |
 | **PATO** | Plataforma de Análisis y Training, corrección de ejercicios en tiempo real con visión artificial ⭐ 2 | [repo](https://github.com/ING-Ricardo-Lopez/PATO) |
 | **fisioparallevar-redesign** | Landing premium con animaciones scroll-driven para academia de estética | [repo](https://github.com/ING-Ricardo-Lopez/fisioparallevar-redesign) |
@@ -101,30 +108,26 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 | **QList** | Administración de listas mediante QR | [repo](https://github.com/ING-Ricardo-Lopez/QList) |
 | **Calabozos Eternos** | Juego 2D (materia de desarrollo de videojuegos) · C# | privado |
 
----
+<img src="assets/divider.svg" width="100%">
 
-## Stack
-
-**Lenguajes** · TypeScript · JavaScript · Go · Python · PHP · C#
-
-**Producto** · Next.js 16 (App Router) · React 19 · Vue · NestJS · Prisma · PostgreSQL · Tailwind v4 · Motion / GSAP · React Native / Expo · Laravel · GraphQL · Docker
-
-**Seguridad** · LangGraph / LangChain · Pentesting (web · IoT · ICS · wireless · móvil · AD) · OSINT · SARIF · Hack The Box
-
-**IA / DevEx** · Orquestación multi-agente · SDD (Spec-Driven Development) · opencode · Gentle AI · Engram (memoria persistente) · CodeGraph · MCP
-
-**Entorno** · macOS · LazyVim · Tmux / Zellij · Git
-
----
+## 📊 Actividad
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ING-Ricardo-Lopez&show_icons=true&hide_border=true&theme=default" alt="stats">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ING-Ricardo-Lopez&layout=compact&hide_border=true&theme=default" alt="top languages">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ING-Ricardo-Lopez&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=39ff14&text_color=c9d1d9" alt="stats">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ING-Ricardo-Lopez&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9" alt="langs">
 </p>
 
----
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ING-Ricardo-Lopez&hide_border=true&background=0d1117&ring=00f0ff&fire=39ff14&currLabel=00f0ff&sideLabels=c9d1d9&dates=c9d1d9" alt="streak">
+</p>
 
-## Fuera del código
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=ING-Ricardo-Lopez&theme=darkhub&no-frame=true&margin-w=10&column=7" alt="trophy">
+</p>
+
+<img src="assets/divider.svg" width="100%">
+
+## 🥋 Fuera del código
 
 - 🥋 **Maestro de Kickboxing y Muay Thai.** Cinta negra 1er Dan, en proceso de avance a 2do Dan. La disciplina marcial es la misma que aplico al oficio: fundamentos, repetición, mejora constante.
 - 🎸 **Rock, nu-metal, rap y electrónica.** Linkin Park, Metallica e Ice Cube en rotación permanente.
@@ -132,4 +135,6 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 
 ---
 
-<p align="center"><i>La IA es una herramienta. Nosotros dirigimos, ella ejecuta.</i></p>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=12&duration=4500&color=39FF14&center=true&width=560&lines=%22La+IA+es+una+herramienta.+Nosotros+dirigimos%2C+ella+ejecuta.%22" alt="quote">
+</p>

@@ -41,25 +41,38 @@ Sistemas de producción completos — no demos. **NestJS + Prisma + PostgreSQL**
 
 <img src="assets/divider.svg" width="100%">
 
-## 🎯 Decepticon — framework de pentesting autónomo
+<p align="center">
+  <img src="assets/decepticon.svg" alt="Decepticon framework" width="100%">
+</p>
 
-Mi proyecto más grande. Un **framework de pentesting basado en LLMs** que orquesta la kill-chain completa —de reconocimiento a reporte— sobre **LangGraph/LangChain**, con agentes especializados por dominio ofensivo.
+**Decepticon** es mi proyecto más grande: un **framework de pentesting autónomo basado en LLMs** que orquesta la kill-chain completa —de reconocimiento a reporte— sobre **LangGraph / LangChain**, con operadores especializados por dominio ofensivo.
 
-**11 agentes / grafos:**
+<h3 align="center">11 operadores</h3>
 
-| Dominio ofensivo | Agente |
-|---|---|
-| Kill-chain completa (orquestador) | `decepticon` |
-| Active Directory | `ad_operator` |
-| OSINT | `osint_operator` |
-| IoT / embedded | `iot_operator` |
-| Sistemas de control industrial (ICS) | `ics_operator` |
-| Red inalámbrica | `wireless_operator` |
-| Dispositivos móviles | `mobile_operator` |
-| Cadena de suministro (supply chain) | `supply_chain_operator` |
-| Campañas de phishing | `phisher` |
-| Forensia digital | `forensicator` |
-| Blue team / defensa | `blue_cell` |
+<table align="center">
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/decepticon-kill__chain-00f0ff?style=flat-square"></td>
+    <td align="center"><img src="https://img.shields.io/badge/ad__operator-Active_Directory-39ff14?style=flat-square"></td>
+    <td align="center"><img src="https://img.shields.io/badge/osint__operator-OSINT-00f0ff?style=flat-square"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/iot__operator-IoT_embedded-39ff14?style=flat-square"></td>
+    <td align="center"><img src="https://img.shields.io/badge/ics__operator-ICS_OT-39ff14?style=flat-square"></td>
+    <td align="center"><img src="https://img.shields.io/badge/wireless__operator-wireless-39ff14?style=flat-square"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/mobile__operator-mobile-39ff14?style=flat-square"></td>
+    <td align="center"><img src="https://img.shields.io/badge/supply__chain__operator-supply_chain-39ff14?style=flat-square"></td>
+    <td align="center"><img src="https://img.shields.io/badge/phisher-phishing-39ff14?style=flat-square"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/forensicator-digital_forensics-00f0ff?style=flat-square"></td>
+    <td align="center"><img src="https://img.shields.io/badge/blue__cell-blue_team-ff5f56?style=flat-square"></td>
+    <td></td>
+  </tr>
+</table>
+
+<p align="center"><sub>🟦 orquestador · intel &nbsp;·&nbsp; 🟩 ofensivo &nbsp;·&nbsp; 🟥 defensa</sub></p>
 
 **Lo que lo diferencia del resto:**
 - **Middleware de inteligencia** que hace razonar al agente de explotación como un pentester senior: detección de tech-stack → técnicas de ataque, inferencia de cadenas de exploit a partir de hallazgos acumulados, pensamiento lateral ante fallos.

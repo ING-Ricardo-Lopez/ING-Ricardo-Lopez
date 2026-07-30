@@ -88,7 +88,7 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 <img src="assets/divider.svg" width="100%">
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,05080d&height=100&section=header&text=IA%20%26%20AGENTES&fontSize=26&fontColor=39ff14&fontAlignY=38&stroke=39ff14&strokeWidth=1&desc=tooling%20propio&descColor=8b949e&descAlignY=62&animation=fadeIn" width="100%" alt="ia agentes">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,05080d&height=100&section=header&text=IA%20Y%20AGENTES&fontSize=26&fontColor=39ff14&fontAlignY=38&stroke=39ff14&strokeWidth=1&desc=tooling%20propio&descColor=8b949e&descAlignY=62&animation=fadeIn" width="100%" alt="ia agentes">
 </p>
 
 | Proyecto | Qué hace |
@@ -101,7 +101,7 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 <img src="assets/divider.svg" width="100%">
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,05080d&height=100&section=header&text=JUEGOS%20%26%20PROYECTOS&fontSize=24&fontColor=00f0ff&fontAlignY=38&stroke=39ff14&strokeWidth=1&desc=proyectos%20abiertos&descColor=8b949e&descAlignY=62&animation=fadeIn" width="100%" alt="juegos proyectos">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,05080d&height=100&section=header&text=JUEGOS%20Y%20PROYECTOS&fontSize=24&fontColor=00f0ff&fontAlignY=38&stroke=39ff14&strokeWidth=1&desc=proyectos%20abiertos&descColor=8b949e&descAlignY=62&animation=fadeIn" width="100%" alt="juegos proyectos">
 </p>
 
 | Proyecto | Qué es | Link |
@@ -129,7 +129,7 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ING-Ricardo-Lopez&hide_border=true&background=0d1117&ring=00f0ff&fire=39ff14&currLabel=00f0ff&sideLabels=c9d1d9&dates=c9d1d9" alt="streak">
+  <img src="https://streak-stats.demolab.com/?user=ING-Ricardo-Lopez&hide_border=true&background=0d1117&ring=00f0ff&fire=39ff14&currLabel=00f0ff&sideLabels=c9d1d9&dates=c9d1d9" alt="streak">
 </p>
 
 <p align="center">

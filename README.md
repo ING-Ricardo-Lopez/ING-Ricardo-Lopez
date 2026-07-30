@@ -27,7 +27,9 @@
 
 <img src="assets/divider.svg" width="100%">
 
-## 🏭 Producto full-stack empresarial
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,05080d&height=100&section=header&text=PRODUCTO%20FULL-STACK&fontSize=26&fontColor=00f0ff&fontAlignY=38&stroke=00f0ff&strokeWidth=1&desc=ERPs%20y%20SaaS%20en%20produccion&descColor=8b949e&descAlignY=62&animation=fadeIn" width="100%" alt="producto full-stack">
+</p>
 
 Sistemas de producción completos — no demos. **NestJS + Prisma + PostgreSQL** en backend, **Next.js / React 19** en frontend, desplegados en producción.
 
@@ -85,7 +87,9 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 
 <img src="assets/divider.svg" width="100%">
 
-## 🤖 IA & agentes — tooling propio
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,05080d&height=100&section=header&text=IA%20%26%20AGENTES&fontSize=26&fontColor=39ff14&fontAlignY=38&stroke=39ff14&strokeWidth=1&desc=tooling%20propio&descColor=8b949e&descAlignY=62&animation=fadeIn" width="100%" alt="ia agentes">
+</p>
 
 | Proyecto | Qué hace |
 |---|---|
@@ -96,7 +100,9 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 
 <img src="assets/divider.svg" width="100%">
 
-## 🎮 Juegos y proyectos abiertos
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117,05080d&height=100&section=header&text=JUEGOS%20%26%20PROYECTOS&fontSize=24&fontColor=00f0ff&fontAlignY=38&stroke=39ff14&strokeWidth=1&desc=proyectos%20abiertos&descColor=8b949e&descAlignY=62&animation=fadeIn" width="100%" alt="juegos proyectos">
+</p>
 
 | Proyecto | Qué es | Link |
 |---|---|---|
@@ -114,6 +120,10 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 ## 📊 Actividad
 
 <p align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3d contributions">
+</p>
+
+<p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=ING-Ricardo-Lopez&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=39ff14&text_color=c9d1d9" alt="stats">
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ING-Ricardo-Lopez&layout=compact&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=c9d1d9" alt="langs">
 </p>
@@ -124,6 +134,10 @@ Más objetivos: routers IZZI / MegaCable, monitor mode en BCM4387 (Apple M1 Pro)
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=ING-Ricardo-Lopez&theme=darkhub&no-frame=true&margin-w=10&column=7" alt="trophy">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ING-Ricardo-Lopez/ING-Ricardo-Lopez/output/github-snake-dark.svg" width="100%" alt="snake contribution animation">
 </p>
 
 <img src="assets/divider.svg" width="100%">

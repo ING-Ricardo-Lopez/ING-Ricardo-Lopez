@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 370" width="100%" fill="none" font-family="'JetBrains Mono','IBM Plex Mono',ui-monospace,monospace">
+  <rect width="900" height="370" fill="#0a0a0a"/>
+
+  <!-- grid de coordenadas -->
+  <g stroke="#161616" stroke-width="1">
+    <line x1="90" y1="50" x2="90" y2="320"/><line x1="180" y1="50" x2="180" y2="320"/>
+    <line x1="270" y1="50" x2="270" y2="320"/><line x1="360" y1="50" x2="360" y2="320"/>
+    <line x1="450" y1="50" x2="450" y2="320"/><line x1="540" y1="50" x2="540" y2="320"/>
+    <line x1="630" y1="50" x2="630" y2="320"/><line x1="720" y1="50" x2="720" y2="320"/>
+    <line x1="810" y1="50" x2="810" y2="320"/>
+    <line x1="40" y1="95" x2="860" y2="95"/><line x1="40" y1="140" x2="860" y2="140"/>
+    <line x1="40" y1="185" x2="860" y2="185"/><line x1="40" y1="230" x2="860" y2="230"/>
+    <line x1="40" y1="275" x2="860" y2="275"/>
+  </g>
+  <g font-size="8" fill="#3a3a3a" letter-spacing="1">
+    <text x="90" y="345" text-anchor="middle">A</text><text x="180" y="345" text-anchor="middle">B</text>
+    <text x="270" y="345" text-anchor="middle">C</text><text x="360" y="345" text-anchor="middle">D</text>
+    <text x="450" y="345" text-anchor="middle">E</text><text x="540" y="345" text-anchor="middle">F</text>
+    <text x="630" y="345" text-anchor="middle">G</text><text x="720" y="345" text-anchor="middle">H</text>
+    <text x="810" y="345" text-anchor="middle">I</text>
+    <text x="20" y="98">01</text><text x="20" y="143">02</text><text x="20" y="188">03</text>
+    <text x="20" y="233">04</text><text x="20" y="278">05</text>
+  </g>
+
+  <text x="450" y="34" font-size="12" fill="#d4a017" text-anchor="middle" letter-spacing="4">MAPA TÁCTICO — OPERACIONES DE CAMPO</text>
+
+  <!-- HQ + anillos de alcance -->
+  <g stroke="#2e2e2e" fill="none">
+    <circle cx="130" cy="185" r="90" stroke-dasharray="3 5"/>
+    <circle cx="130" cy="185" r="170" stroke-dasharray="3 5"/>
+    <circle cx="130" cy="185" r="250" stroke-dasharray="3 5"/>
+  </g>
+  <!-- barrido de radar -->
+  <g>
+    <line x1="130" y1="185" x2="830" y2="185" stroke="#d62828" stroke-width="1.5" opacity="0.45">
+      <animateTransform attributeName="transform" type="rotate" from="0 130 185" to="360 130 185" dur="7s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <!-- HQ -->
+  <rect x="120" y="175" width="20" height="20" fill="none" stroke="#e8e6e1" stroke-width="1.5"/>
+  <line x1="130" y1="170" x2="130" y2="200" stroke="#e8e6e1"/>
+  <line x1="115" y1="185" x2="145" y2="185" stroke="#e8e6e1"/>
+  <text x="130" y="218" font-size="8" fill="#e8e6e1" text-anchor="middle" letter-spacing="2">HQ</text>
+
+  <!-- conexiones HQ → blancos -->
+  <g stroke="#2a2a2a" stroke-width="1" stroke-dasharray="2 6">
+    <line x1="130" y1="185" x2="330" y2="95"><animate attributeName="stroke-dashoffset" values="0;-8" dur="0.9s" repeatCount="indefinite"/></line>
+    <line x1="130" y1="185" x2="490" y2="120"><animate attributeName="stroke-dashoffset" values="0;-8" dur="0.9s" repeatCount="indefinite" begin="-0.1s"/></line>
+    <line x1="130" y1="185" x2="660" y2="90"><animate attributeName="stroke-dashoffset" values="0;-8" dur="0.9s" repeatCount="indefinite" begin="-0.2s"/></line>
+    <line x1="130" y1="185" x2="770" y2="195"><animate attributeName="stroke-dashoffset" values="0;-8" dur="0.9s" repeatCount="indefinite" begin="-0.3s"/></line>
+    <line x1="130" y1="185" x2="650" y2="280"><animate attributeName="stroke-dashoffset" values="0;-8" dur="0.9s" repeatCount="indefinite" begin="-0.4s"/></line>
+    <line x1="130" y1="185" x2="400" y2="290"><animate attributeName="stroke-dashoffset" values="0;-8" dur="0.9s" repeatCount="indefinite" begin="-0.5s"/></line>
+  </g>
+
+  <!-- blancos (targets) -->
+  <g font-size="9">
+    <!-- Puropollo CRITICAL -->
+    <circle cx="330" cy="95" r="14" fill="#d62828" opacity="0.18"><animate attributeName="r" values="14;24;14" dur="2.2s" repeatCount="indefinite" begin="0s"/><animate attributeName="opacity" values="0.35;0;0.35" dur="2.2s" repeatCount="indefinite" begin="0s"/></circle>
+    <circle cx="330" cy="95" r="4" fill="#d62828"/>
+    <text x="345" y="92" fill="#e8e6e1" font-weight="700">Puropollo</text>
+    <text x="345" y="104" fill="#7a7a7a">IDOR · 22,450 usuarios</text>
+
+    <!-- SIGROMEX CRITICAL -->
+    <circle cx="490" cy="120" r="14" fill="#d62828" opacity="0.18"><animate attributeName="r" values="14;24;14" dur="2.2s" repeatCount="indefinite" begin="0.3s"/><animate attributeName="opacity" values="0.35;0;0.35" dur="2.2s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="490" cy="120" r="4" fill="#d62828"/>
+    <text x="505" y="117" fill="#e8e6e1" font-weight="700">SIGROMEX</text>
+    <text x="505" y="129" fill="#7a7a7a">JWT → SuperAdmin · PII</text>
+
+    <!-- Tarjeta Amiga HIGH -->
+    <circle cx="660" cy="90" r="14" fill="#d4a017" opacity="0.18"><animate attributeName="r" values="14;24;14" dur="2.2s" repeatCount="indefinite" begin="0.6s"/><animate attributeName="opacity" values="0.35;0;0.35" dur="2.2s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="660" cy="90" r="4" fill="#d4a017"/>
+    <text x="675" y="87" fill="#e8e6e1" font-weight="700">Tarjeta Amiga</text>
+    <text x="675" y="99" fill="#7a7a7a">10 vulns · 3 críticas</text>
+
+    <!-- CBTIS CRITICAL -->
+    <circle cx="770" cy="195" r="14" fill="#d62828" opacity="0.18"><animate attributeName="r" values="14;24;14" dur="2.2s" repeatCount="indefinite" begin="0.9s"/><animate attributeName="opacity" values="0.35;0;0.35" dur="2.2s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="770" cy="195" r="4" fill="#d62828"/>
+    <text x="755" y="180" fill="#e8e6e1" font-weight="700" text-anchor="end">CBTIS / DGETI</text>
+    <text x="755" y="192" fill="#7a7a7a" text-anchor="end">auth bypass + SQLi</text>
+
+    <!-- Hello Sushi INVEST -->
+    <circle cx="650" cy="280" r="14" fill="#5a7a9a" opacity="0.18"><animate attributeName="r" values="14;24;14" dur="2.2s" repeatCount="indefinite" begin="1.2s"/><animate attributeName="opacity" values="0.35;0;0.35" dur="2.2s" repeatCount="indefinite" begin="1.2s"/></circle>
+    <circle cx="650" cy="280" r="4" fill="#5a7a9a"/>
+    <text x="635" y="305" fill="#e8e6e1" font-weight="700" text-anchor="end">Hello Sushi</text>
+    <text x="635" y="317" fill="#7a7a7a" text-anchor="end">carding vía Clip</text>
+
+    <!-- Revista Espejo INVEST -->
+    <circle cx="400" cy="290" r="14" fill="#5a7a9a" opacity="0.18"><animate attributeName="r" values="14;24;14" dur="2.2s" repeatCount="indefinite" begin="1.5s"/><animate attributeName="opacity" values="0.35;0;0.35" dur="2.2s" repeatCount="indefinite" begin="1.5s"/></circle>
+    <circle cx="400" cy="290" r="4" fill="#5a7a9a"/>
+    <text x="385" y="315" fill="#e8e6e1" font-weight="700" text-anchor="end">Revista Espejo</text>
+    <text x="385" y="327" fill="#7a7a7a" text-anchor="end">post-intrusión · OSINT</text>
+  </g>
+
+  <!-- brújula -->
+  <g stroke="#3a3a3a" fill="#7a7a7a" font-size="8">
+    <line x1="840" y1="50" x2="840" y2="80"/>
+    <text x="840" y="46" text-anchor="middle">N</text>
+  </g>
+</svg>

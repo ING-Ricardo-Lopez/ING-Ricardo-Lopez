@@ -47,40 +47,28 @@ Sistemas de producción completos — no demos. **NestJS + Prisma + PostgreSQL**
 
 **Decepticon** es mi proyecto más grande: un **framework de pentesting autónomo basado en LLMs** que orquesta la kill-chain completa —de reconocimiento a reporte— sobre **LangGraph / LangChain**, con operadores especializados por dominio ofensivo.
 
-<h3 align="center">11 operadores</h3>
+<p align="center">
+  <img src="assets/operators.svg" alt="Decepticon multi-agent swarm" width="100%">
+</p>
 
-<table align="center">
+<table>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/decepticon-kill__chain-00f0ff?style=flat-square"></td>
-    <td align="center"><img src="https://img.shields.io/badge/ad__operator-Active_Directory-39ff14?style=flat-square"></td>
-    <td align="center"><img src="https://img.shields.io/badge/osint__operator-OSINT-00f0ff?style=flat-square"></td>
+    <td width="50%"><b>🧠 Inteligencia de pentester senior</b><br><sub>Middleware que detecta el tech-stack → técnicas de ataque, infiere cadenas de exploit a partir de hallazgos acumulados y piensa lateral ante los fallos.</sub></td>
+    <td width="50%"><b>📚 Playbooks por vertical</b><br><sub>Inyecta TTPs (API security, auth attack…) de forma uniforme en cada operador.</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/iot__operator-IoT_embedded-39ff14?style=flat-square"></td>
-    <td align="center"><img src="https://img.shields.io/badge/ics__operator-ICS_OT-39ff14?style=flat-square"></td>
-    <td align="center"><img src="https://img.shields.io/badge/wireless__operator-wireless-39ff14?style=flat-square"></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.shields.io/badge/mobile__operator-mobile-39ff14?style=flat-square"></td>
-    <td align="center"><img src="https://img.shields.io/badge/supply__chain__operator-supply_chain-39ff14?style=flat-square"></td>
-    <td align="center"><img src="https://img.shields.io/badge/phisher-phishing-39ff14?style=flat-square"></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://img.shields.io/badge/forensicator-digital_forensics-00f0ff?style=flat-square"></td>
-    <td align="center"><img src="https://img.shields.io/badge/blue__cell-blue_team-ff5f56?style=flat-square"></td>
-    <td></td>
+    <td><b>📄 Reportes profesionales</b><br><sub>Markdown → PDF / HTML / DOCX, resumen ejecutivo + técnico, i18n ES / EN.</sub></td>
+    <td><b>🛡️ ROE + gates humanos</b><br><sub>SDK propio, autorización del operador en cada fase, SARIF de hallazgos y benchmark interno.</sub></td>
   </tr>
 </table>
 
-<p align="center"><sub>🟦 orquestador · intel &nbsp;·&nbsp; 🟩 ofensivo &nbsp;·&nbsp; 🟥 defensa</sub></p>
-
-**Lo que lo diferencia del resto:**
-- **Middleware de inteligencia** que hace razonar al agente de explotación como un pentester senior: detección de tech-stack → técnicas de ataque, inferencia de cadenas de exploit a partir de hallazgos acumulados, pensamiento lateral ante fallos.
-- **Playbooks** por vertical (API security, auth attack…) para inyectar TTPs de forma uniforme.
-- **Generación de reportes** profesional Markdown → **PDF / HTML / DOCX** (resumen ejecutivo + técnico), i18n ES/EN.
-- **SDK propio**, **Rules of Engagement** con gates humanos en cada fase, **SARIF** de hallazgos y **benchmark** interno.
-
 ### 🔓 Engagements reales — objetivos autorizados
+
+<p>
+  <img src="https://img.shields.io/badge/AUTHORIZED-black--box-39ff14?style=flat-square">
+  <img src="https://img.shields.io/badge/reportes-CVSS_+_PoC-00f0ff?style=flat-square">
+  <img src="https://img.shields.io/badge/scope-acordado_previo-00b8d4?style=flat-square">
+</p>
 
 Decepticon probado en campo. Auditorías black-box con el framework + arsenal propio, reportes con severidad CVSS, pruebas de concepto y recomendaciones.
 

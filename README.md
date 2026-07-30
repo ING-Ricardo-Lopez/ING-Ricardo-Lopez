@@ -128,7 +128,48 @@ Red Team autorizado contra <code>checador.tecnocom.dev</code> (sistema ASISTEA).
 Engagement de campo del framework <b>Decepticon</b> — pentesting ofensivo autorizado con el orquestador multi-agente. Hallazgos documentados internamente; caso real de uso del framework en producción.
 </details>
 
-<p align="center"><sub>+ routers IZZI / MegaCable · monitor mode BCM4387 (M1 Pro) · 5 máquinas Hack The Box comprometidas autónomamente</sub></p>
+<details>
+<summary><b>OP-09</b> · CFE <img src="https://img.shields.io/badge/DOC.-2a2a2a?style=flat-square&labelColor=111"></summary>
+Comisión Federal de Electricidad (sector energético, gubernamental). Engagement de Decepticon sobre infraestructura del sector. Hallazgos documentados internamente.
+</details>
+
+<details>
+<summary><b>OP-10</b> · Planet Fitness <img src="https://img.shields.io/badge/DOC.-2a2a2a?style=flat-square&labelColor=111"></summary>
+Cadena de gimnasios. Pentesting autorizado sobre su plataforma. Hallazgos documentados internamente.
+</details>
+
+<details>
+<summary><b>OP-11</b> · UAS <img src="https://img.shields.io/badge/DOC.-2a2a2a?style=flat-square&labelColor=111"></summary>
+Universidad Autónoma de Sinaloa. Engagement sobre sistemas académicos. Hallazgos documentados internamente.
+</details>
+
+<details>
+<summary><b>OP-12</b> · Predial <img src="https://img.shields.io/badge/DOC.-2a2a2a?style=flat-square&labelColor=111"></summary>
+Sistema municipal de impuesto predial. Hallazgos documentados internamente.
+</details>
+
+<details>
+<summary><b>OP-13</b> · Mazu Hi Sushi <img src="https://img.shields.io/badge/DOC.-2a2a2a?style=flat-square&labelColor=111"></summary>
+Cadena de restaurante (sushi). Hallazgos documentados internamente.
+</details>
+
+<details>
+<summary><b>OP-14</b> · VulnBank <img src="https://img.shields.io/badge/BENCHMARK-5a8a3a?style=flat-square"></summary>
+Blanco sintético del framework — banco vulnerable de stress-test. <b>5 iteraciones completas</b> + smoke tests para medir el desempeño del orquestador multi-agente contra casos controlados antes de engagements reales.
+</details>
+
+<h4 align="center">Operaciones adicionales por sector</h4>
+
+<table>
+  <tr><td width="34%"><sub>GOBIERNO / MUNICIPAL</sub></td><td>CFE · Predial · Jumapan · CBTIS/DGETI</td></tr>
+  <tr><td><sub>RESTAURANTE / FOOD</sub></td><td>Hello Sushi · Mazu Hi Sushi</td></tr>
+  <tr><td><sub>RETAIL / FITNESS</sub></td><td>Planet Fitness · más objetivos de e-commerce</td></tr>
+  <tr><td><sub>EDUCACIÓN</sub></td><td>UAS</td></tr>
+  <tr><td><sub>OSINT</sub></td><td>casos de inteligencia de fuentes abiertas (individuos)</td></tr>
+  <tr><td><sub>BENCHMARK</sub></td><td>VulnBank (5 iteraciones) · Hack The Box (5 máquinas)</td></tr>
+</table>
+
+<p align="center"><sub>+ routers IZZI / MegaCable · monitor mode BCM4387 (M1 Pro) · más objetivos documentados en el workspace del framework</sub></p>
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 03   //   ▔ ▔ ▔ ▔ ▔</code></p>
 

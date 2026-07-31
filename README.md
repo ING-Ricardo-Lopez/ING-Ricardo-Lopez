@@ -12,6 +12,19 @@
   </svg>
 </p>
 
+<table border="0" align="center">
+  <tr><td>
+    <h3 align="center">📋 BRIEFING DEL OPERADOR</h3>
+    <p align="center"><b>Ingeniero de Software + Pentester ofensivo</b> · 2 años en producto full-stack + 6 freelance · Mazatlán, MX 🇲🇽</p>
+    <p align="center"><b>Busco:</b> Software Engineer (full-stack) / Pentester — <b>remoto o México</b> &nbsp;
+      <img src="https://img.shields.io/badge/DISPONIBLE-5a8a3a?style=flat-square">
+      <a href="mailto:rl0051844@gmail.com?subject=CV%20request"><img src="https://img.shields.io/badge/CV_(PDF)-d4a017?style=flat-square"></a>
+    </p>
+    <p align="center"><sub>Doble filo: <b>desarrollo</b> (NestJS · Prisma · Next.js · React 19 · Go · Python) + <b>seguridad ofensiva</b> (LangGraph · pentesting) + <b>orquestación de IA</b></sub></p>
+    <p align="center"><sub>Proyectos abiertos: <a href="https://github.com/ING-Ricardo-Lopez/SignoSonoro">SignoSonoro ⭐3</a> · <a href="https://github.com/ING-Ricardo-Lopez/PATO">PATO ⭐2</a> · <a href="https://github.com/ING-Ricardo-Lopez/fisioparallevar-redesign">fisioparallevar</a></sub></p>
+  </td></tr>
+</table>
+
 <p align="center"><sub>CANALES DE TRANSMISIÓN</sub></p>
 
 <p align="center">
@@ -170,6 +183,19 @@ Blanco sintético del framework — banco vulnerable de stress-test. <b>5 iterac
 </table>
 
 <p align="center"><sub>+ routers IZZI / MegaCable · monitor mode BCM4387 (M1 Pro) · más objetivos documentados en el workspace del framework</sub></p>
+
+<table border="0" align="center">
+  <tr><td>
+    <h4 align="center">💥 IMPACTO DE NEGOCIO</h4>
+    <sub>
+    • <b>22,450 clientes</b> protegidos de exposición de datos personales y de pago (Puropollo)<br>
+    • Compromiso total de un <b>ERP corporativo</b> demostrado y blindado (SIGROMEX)<br>
+    • Sistema de crédito crítico <b>blindado antes de salir a producción</b> (Tarjeta Amiga)<br>
+    • Acceso a <b>crown jewels</b> en Red Team autorizado (Tecnocom / ASISTEA)<br>
+    • Datos de un <b>sistema gubernamental</b> educativo protegidos (CBTIS / DGETI)
+    </sub>
+  </td></tr>
+</table>
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 03   //   ▔ ▔ ▔ ▔ ▔</code></p>
 

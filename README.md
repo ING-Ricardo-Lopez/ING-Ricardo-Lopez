@@ -15,7 +15,7 @@
 <table border="0" align="center">
   <tr><td>
     <h3 align="center">📋 BRIEFING DEL OPERADOR</h3>
-    <p align="center"><b>Ingeniero de Software + Pentester ofensivo</b> · 2 años en producto full-stack + 6 freelance · Mazatlán, MX 🇲🇽</p>
+    <p align="center"><b>Ingeniero de Software + Pentester ofensivo</b> · 6 años de experiencia (desde 2020) · Mazatlán, MX 🇲🇽</p>
     <p align="center"><b>Busco:</b> Software Engineer (full-stack) / Pentester — <b>remoto o México</b> &nbsp;
       <img src="https://img.shields.io/badge/DISPONIBLE-5a8a3a?style=flat-square">
       <a href="mailto:rl0051844@gmail.com?subject=CV%20request"><img src="https://img.shields.io/badge/CV_(PDF)-d4a017?style=flat-square"></a>
@@ -40,7 +40,7 @@
 
 <p align="center">
   <a href="#s01"><code>§01 DOMINIOS</code></a> ·
-  <a href="#s02"><code>§02 DECEPTICON</code></a> ·
+  <a href="#s02"><code>§02 NUEVOVIRUZ</code></a> ·
   <a href="#s03"><code>§03 OPERACIONES</code></a> ·
   <a href="#s04"><code>§04 ACTIVOS</code></a> ·
   <a href="#s05"><code>§05 SERVICIO</code></a> ·
@@ -58,7 +58,7 @@
     </td>
     <td align="center" width="33%">
       <sub>DOMINIO</sub><br><b>SEGURIDAD OFENSIVA</b><br>
-      <sub>Decepticon · 11 operadores</sub><br><sub>6 operaciones · 5 HTB</sub>
+      <sub>NuevoViruz v1 · v2 (fastlane)</sub><br><sub>14 operaciones · 5 HTB</sub>
     </td>
     <td align="center" width="33%">
       <sub>DOMINIO</sub><br><b>AGENTES IA</b><br>
@@ -73,13 +73,15 @@
 
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 01   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
-<h2 id="s02">§ 02 · ACTIVO PRINCIPAL — DECEPTICON</h2>
+<h2 id="s02">§ 02 · ACTIVO PRINCIPAL — NUEVOVIRUZ v1 + v2</h2>
 
 <p align="center">
-  <img src="assets/operators.svg" alt="Vector de operadores Decepticon" width="100%">
+  <img src="assets/operators.svg" alt="Vector de operadores NuevoViruz" width="100%">
 </p>
 
-Framework de pentesting autónomo sobre **LangGraph** — kill-chain completa, de reconocimiento a reporte.
+**NuevoViruz v1**: framework de pentesting autónomo sobre **LangGraph** — kill-chain completa, de reconocimiento a reporte.
+
+**NuevoViruz v2 (fastlane)**: evolución superior — chat IA de pentest QA sin papeleo que dispara nmap/nuclei/httpx/curl en vivo, con control de alcance, bitácora de operaciones y hallazgos persistentes.
 
 <table>
   <tr><td width="22%"><sub>RAZONAMIENTO</sub></td><td>Middleware de pentester senior · tech-stack → TTPs · inferencia de cadenas de exploit · pensamiento lateral</td></tr>
@@ -138,12 +140,12 @@ Red Team autorizado contra <code>checador.tecnocom.dev</code> (sistema ASISTEA).
 
 <details>
 <summary><b>OP-08</b> · briq <img src="https://img.shields.io/badge/ALTO-d4a017?style=flat-square"></summary>
-Engagement de campo del framework <b>Decepticon</b> — pentesting ofensivo autorizado con el orquestador multi-agente. Hallazgos documentados internamente; caso real de uso del framework en producción.
+Engagement de campo del framework <b>NuevoViruz v1</b> — pentesting ofensivo autorizado con el orquestador multi-agente. Hallazgos documentados internamente; caso real de uso del framework en producción.
 </details>
 
 <details>
 <summary><b>OP-09</b> · CFE <img src="https://img.shields.io/badge/DOC.-2a2a2a?style=flat-square&labelColor=111"></summary>
-Comisión Federal de Electricidad (sector energético, gubernamental). Engagement de Decepticon sobre infraestructura del sector. Hallazgos documentados internamente.
+Comisión Federal de Electricidad (sector energético, gubernamental). Engagement de NuevoViruz v1 sobre infraestructura del sector. Hallazgos documentados internamente.
 </details>
 
 <details>
@@ -216,9 +218,9 @@ Blanco sintético del framework — banco vulnerable de stress-test. <b>5 iterac
 </details>
 
 <details>
-<summary><b>03</b> · Hello Sushi <sub>[cadena food · multi-sucursal]</sub> <code>PROD</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<summary><b>03</b> · Hello Sushi <sub>[cadena food · multi-sucursal]</sub> <code>PROD</code> <img src="https://img.shields.io/badge/~4,000_usuarios-39ff14?style=flat-square"> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
 <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white"> <img src="https://img.shields.io/badge/MapLibre-00f0ff?style=flat-square"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"><br>
-<sub>CEDIS · inventario · solicitudes de compra · recepción · POS · dispatch con mapa · variantes/modificadores · roles cedis_operator/manager</sub>
+<sub>≈4,000 usuarios · CEDIS · inventario · solicitudes de compra · recepción · POS · dispatch con mapa · kiosco (Expo) · variantes/modificadores · roles cedis_operator/manager</sub>
 </details>
 
 <details>
@@ -271,6 +273,18 @@ PWA para controlar el agente de código desde el celular (chat + terminal vía <
 <sub>Gestión de academia: alumnos, asistencias, mensualidades.</sub>
 </details>
 
+<details>
+<summary><b>13</b> · MazAlerta <sub>[PWA comunitaria vial]</sub> <code>PROD</code> <img src="https://img.shields.io/badge/1,500%2B_usuarios-39ff14?style=flat-square"></summary>
+<img src="https://img.shields.io/badge/React_19-Vite_8-Tailwind_4-informational?style=flat-square"> <img src="https://img.shields.io/badge/MapLibre_GL-OpenFreeMap-blue?style=flat-square"> <img src="https://img.shields.io/badge/PWA-instalable-success?style=flat-square"><br>
+<sub>1,500+ usuarios · reportes ciudadanos en tiempo real (retenes, bloqueos, accidentes) · alertas push por radio y tipo · confirmación comunitaria · rutas guardadas · puntos frecuentes · mapa de calor y resumen semanal</sub>
+</details>
+
+<details>
+<summary><b>14</b> · Logística Libre <sub>[ERP logística terrestre]</sub> <code>PROD</code> <img src="https://img.shields.io/badge////_SELLADO-d4a017?style=flat-square&labelColor=1a1a1a"></summary>
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"><br>
+<sub>colocación de unidades · gestión de embarques · análisis TMS · plataforma para la industria logística terrestre</sub>
+</details>
+
 <p align="center"><code>▔ ▔ ▔ ▔ ▔   //   FIN § 04   //   ▔ ▔ ▔ ▔ ▔</code></p>
 
 <h2 id="s05">§ 05 · HOJA DE SERVICIO</h2>
@@ -293,7 +307,8 @@ PWA para controlar el agente de código desde el celular (chat + terminal vía <
 <h2 id="s06">§ 06 · EXPEDIENTE PERSONAL</h2>
 
 <table>
-  <tr><td width="28%"><sub>RANGO</sub></td><td>Cinta negra 1er Dan — Kickboxing & Muay Thai (2do Dan en proceso)</td></tr>
+  <tr><td width="28%"><sub>RANGO</sub></td><td>Maestro de artes marciales (Kickboxing · Muay Thai · Boxeo) · Cinta negra 1er Dan (2do Dan en proceso)</td></tr>
+  <tr><td><sub>IDIOMAS</sub></td><td>Español (nativo) · Inglés técnico — lectura, documentación e investigación; no conversacional</td></tr>
   <tr><td><sub>AUDIO</sub></td><td>Linkin Park · Metallica · Ice Cube — rock / nu-metal / rap / electrónica</td></tr>
   <tr><td><sub>LIBRE</sub></td><td>League of Legends · Minecraft · series · tecnología</td></tr>
 </table>
